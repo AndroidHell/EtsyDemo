@@ -1,3 +1,9 @@
+<div class="jumbotron">
+  <h1>Handcrafted items from <bR>
+    around the world.</h1>
+  <h2>Discover one-of-a-kind items</h2>
+</div>
+
 <div class="center">
   <div class="row">
     <% @listings.each do |listing| %>
@@ -19,3 +25,4 @@
 <% if (user_signed_in?) %>
   <%= link_to 'New Listing', new_listing_path, class: "btn btn-link" %>
 <% end %> 
+

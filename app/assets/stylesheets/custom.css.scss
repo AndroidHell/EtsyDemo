@@ -49,3 +49,12 @@ body {
 	}
 }	
 
+.jumbotron {
+	background-image: url('jumbotron.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	h1,h2 {
+		font-family: guardian-egyptt, georgia, serif;
+	}
+}
