@@ -1,3 +1,2 @@
 # EtsyDemo
-
 # Etsy Y'all!
